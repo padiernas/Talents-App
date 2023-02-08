@@ -1,0 +1,141 @@
+.container-principal {
+  margin: 130px 0;
+}
+
+.container-banner {
+  margin: auto;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.image-baner {
+  width: 100%;
+  object-fit: contain;
+  height: 500px;
+  margin: auto;
+}
+
+.container-about {
+  margin: 2rem;
+  display: flex;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.container-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.title-aboutUs {
+  color: #ffcb05;
+  font-family: coogose-thin;
+  font-weight: bolder;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.container-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.image-description-2 {
+  width: 80%;
+}
+
+.slogan {
+  color: #ffffff;
+}
+
+.container-description-1 {
+  margin-top: 50px;
+  width: 100%;
+  background-color: rgb(34, 204, 171);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+
+#icon-tex {
+  width: 20rem;
+  height: 30rem;
+}
+
+.container-description-2 {
+  position: relative;
+  width: 270px;
+  height: 175px;
+  right: 246px;
+  top: 28px;
+}
+
+.description-1 {
+  font-family: coogose-thin;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.image-description {
+  position: relative;
+  width: 300px;
+  height: 220px;
+  right: -30px;
+}
+
+.container-description-3 {
+  position: relative;
+  width: 400px;
+  right: 90px;
+}
+
+.description-2 {
+  font-family: coogose-thin;
+  font-size: 1.2rem;
+  color: black;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.description-2 span {
+  border: 1px solid #000000;
+}
+
+@media only screen and (max-width : 499px) {
+  .container-description-1 {
+    padding: 15px;
+  }
+
+  .image-description {
+    width: 350px;
+    right: 0;
+  }
+
+  .container-description-2 {
+    bottom: 170px !important;
+    left: 0;
+    top: -170px;
+
+  }
+
+  .container-description-3 {
+    bottom: 8rem;
+    width: 100%;
+    right: 0;
+  }
+
+  .description-2 {
+    font-size: 18px;
+  }
+
+  .container-banner{
+    display: none;
+  }
+}

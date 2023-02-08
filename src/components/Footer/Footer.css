@@ -1,0 +1,110 @@
+.ol {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: #fee600;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.ol li {
+  width: 140px;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+.ol li a {
+  font-family: coogose-thin;
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.link-footer {
+  font-size: 1.2rem;
+  font-family: 'coogose-light';
+  color: #000000;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 15vh;
+  flex-wrap: wrap;
+  margin-top: 306px;
+}
+
+.items-footer {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ffe602;
+  width: 100%;
+  height: 260px;
+}
+
+.items-footer li {
+  list-style: none;
+}
+
+.items-footer .item::before {
+  top: -180px;
+  right: 270px;
+  left: 41%;
+  transform: translate(-50%, -50%);
+  font-size: 6vw;
+  pointer-events: none;
+  font-weight: 700;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.items-footer .item:hover::before {
+  color: black;
+  opacity: 0.1;
+  transform: translate(-30%, calc(-30% + 150px));
+}
+
+.items-footer .item a {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  border-radius: 100px;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 2rem;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  box-shadow: 0 25px 35px rgba(0, 0, 0, 0.1);
+}
+
+.slogan-footer {
+  font-family: coogose-thin;
+  color: #000000;
+  background: #fee600;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 80px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width : 499px) {
+  .items-footer .item a {
+    width: 80%;
+    height: 65%;
+  }
+
+}
