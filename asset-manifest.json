@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Talents-App/static/css/main.716646db.css",
+    "main.js": "/Talents-App/static/js/main.4c20d3bb.js",
+    "static/media/bannerSonBata.jpg": "/Talents-App/static/media/bannerSonBata.5e60d7f2d4f1b693ed5e.jpg",
+    "static/media/Cocogoose Pro Thin Italic-trial.ttf": "/Talents-App/static/media/Cocogoose Pro Thin Italic-trial.9ff299e02517481bba97.ttf",
+    "static/media/Cocogoose Pro Thin-trial.ttf": "/Talents-App/static/media/Cocogoose Pro Thin-trial.6440e32616f290a797e9.ttf",
+    "static/media/Cocogoose Pro Light-trial.ttf": "/Talents-App/static/media/Cocogoose Pro Light-trial.f77876cfc3790e5308f4.ttf",
+    "static/media/logo2.0.png": "/Talents-App/static/media/logo2.0.f2888369b7300b90657d.png",
+    "index.html": "/Talents-App/index.html",
+    "main.716646db.css.map": "/Talents-App/static/css/main.716646db.css.map",
+    "main.4c20d3bb.js.map": "/Talents-App/static/js/main.4c20d3bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.716646db.css",
+    "static/js/main.4c20d3bb.js"
+  ]
+}
